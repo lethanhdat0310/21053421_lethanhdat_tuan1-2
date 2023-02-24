@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <p>Use the following form to send a message to Example Cafe</p>
+    
+        <fieldset>
+            <legend>Your message:</legend>
+        <table>
+<tr>
+    <td><label for=emailto>To</label></td>
+    <td><input type=text name=txtto readonly=readonly id=emailto size=20 value="Example Cafe"></td>
+</tr>
+        <td><lable for="emailfrom">your email</lable></td>
+        <td><input type="text" name="txtfrom" id=emailfrom size=20 tabindex=1 maxlength=250 ></td>
+        <tr>
+        <td><label for=emailBody>Message</label></td>
+        <td><textarea name=txtBody id=emailbody cols=50 rows=10 tabindex=2></textarea></td>
+        </tr>
+       
+    </table>
+        </fieldset>
+        <fieldset>
+            <table>
+                <legend>How you found us:</legend>
+            </fieldset>
+                <tr>
+                    <td>
+                How did you hear it us?</td>
+               <td> <select name="hometown">
+                    <option value="google">google</option>
+                   <option value="facebook">facebook</option>
+                   <option value="message">message</option>
+                </select></td>
+                </tr>
+                <tr>
+                <td><label for="accept">Newsletter</label></td>
+            <td>
+                <input id="accept" type="checkbox" name="confirm" value="accept">
+                Ensure this box is checked if you would like to receive email updates</td>
+                </tr>
+            </table>
+        </fieldset>
+        <td><button type="submit">Send message</button></td>
+        <br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <p>First name: 
+                <input type="text" name="txtfn" value="" size="10" maxlength="20" ></p>
+                <p>Last name:
+                    <input type="text" name="txtln" value="" size="10" maxlength="20" ></p>
+                    <p>e-mail:
+                        <input type="text" name="txtname" value="" size="10" maxlength="20" ></p>
+        </fieldset>
+        <fieldset>
+            <legend>Conpetition Question</legend>
+            <p>How tall is the Eiffel Tower in Paris, France?</p>
+            <input name= 'qualif' type='radio' value= 'grad' tabindex= '5'>
+584 ft<br>
+            <input name= 'qualif' type='radio' value='postgrad' tabindex='5'>
+784 ft<br>
+<input name= 'qualif' type='radio' value= 'grad' tabindex= '5'>
+984 ft<br>
+<input name= 'qualif' type='radio' value= 'grad' tabindex= '5'>
+1184 ft
+        </fieldset>
+        <fieldset>
+            <legend>Enter competition</legend>
+            <p><input type="submit" value="Enter Competition" ></p>
+        </fieldset>
+</body>
+</html>
